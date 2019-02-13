@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<!-- JS CSS Linking -->
+<script type="text/javascript" src="masonsjavascript.js"></script>
+<link rel="Stylesheet" href="Stylesheet.css">
+<style>
+p.red {
+  color: #ff0000;
+}
+
+p.center {
+  text-align: center;
+}
+
+p.indent {
+  text-indent: 40px;
+}
+</style>
+
+<!-- Top Navigational Bar -->
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #625D5D;
+}
+
+.active {
+  background-color: #837E7C;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="Home.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#F4F6F6;height:1500px;">
+<!-- Header -->
+<a href="Home.html"><img src="Logo.png" alt="Natural Learning" style="width:320px;height:80px;border:1;"></a>
+<br>
+
+<!-- Welcome Statement -->
+<p class="indent">Welcome to Natural Learning, [Username]</p>
+<p class="indent">Please Select a Language:</p>
+
+<!-- Buttons -->
+<a href="Italiano.html"><img src="Italian.png" alt="Italiano" style="width:135px;height:90px;border:1;"></a>
+<a href="Deutsch.html"><img src="German.png" alt="Deutsch" style="width:135px;height:90px;border:1;"></a>
+<a href="Espanol.html"><img src="Spanish.png" alt="Español" style="width:135px;height:90px;border:1;"></a>
+
+<!-- Credits -->
+<h6>By Tommy and Mason</h6>
+</body>
+</html>
